@@ -19,4 +19,4 @@ class TranspositionCipher:
             if col == key or (col == key  - 1 and row >= len(text) % key):
                 col = 0
                 row += 1
-            return ''.join(decrypted_text)
+        return ''.join(decrypted_text)
